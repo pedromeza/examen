@@ -14,7 +14,9 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                   <h1 style="text-align:center;"><strong>Bienvenido</strong> </h1><br>
+                    <h3 style="text-align:center;">{{ Auth::user()->name }} {{ Auth::user()->apellido_paterno }} {{ Auth::user()->apellido_materno }}  </h3>
+
                 </div>
             </div>
         </div>
